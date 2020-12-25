@@ -18,6 +18,11 @@ if [ -z $PROXY_PASS ]; then
 fi
 
 htpasswd -bBc /etc/nginx/.htpasswd $BASIC_AUTH_USERNAME $BASIC_AUTH_PASSWORD
+htpasswd -bB /etc/nginx/.htpasswd	TSN1 welcome2020@WM20
+htpasswd -bB /etc/nginx/.htpasswd	TSN2 welcome2020@WM20
+htpasswd -bB /etc/nginx/.htpasswd	TSN3 welcome2020@WM20
+htpasswd -bB /etc/nginx/.htpasswd	TSN4 welcome2020@WM20
+htpasswd -bB /etc/nginx/.htpasswd	TSN5 welcome2020@WM20
 htpasswd -bB /etc/nginx/.htpasswd	pasuth@gmail.com OgyE6068+
 htpasswd -bB /etc/nginx/.htpasswd	akalnina19@gmail.com XoyZ3757*
 htpasswd -bB /etc/nginx/.htpasswd	cpronman@theathletic.com FbkA2430+
